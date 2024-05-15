@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+   <div class="Banner">
+     <div class="left-banner">
+    
+        <h1 class="heading">Tamil Hits</h1>
+        <p>By Anirudh Ravichnadran</p>
+
+     </div>
+   </div>
+<div class="main-section">
+
+    <div class="controls" onclick="playAudio()" id="play-pause">
+        <img class="onbtnclick" src="images/play-button.svg" > 
+    </div>
+
+    <audio id="song"></audio>
+     <table>
+        <thead>
+            <th class="song-number">#</th>
+            <th class="song-title">Title</th>
+            <th class="song-album">Album</th>
+            <th class="song-duration">Duration</th>
+           
+        </thead>
+        <tr id="song1" onclick="playAll(1)">
+            <td>1</td>
+            <td>Hukum</td>
+            <td>Jailer</td>
+            <td>05:00</td>
+           
+        </tr>
+
+        <tr id="song2" onclick="playAll(2)">
+            <td>2</td>
+            <td>Naa Ready</td>
+            <td>Leo</td>
+            <td>04:20</td>
+        </tr>
+
+        <tr  id="song3" onclick="playAll(3)">
+            <td>3</td>
+            <td>Vaathi Coming</td>
+            <td>Master</td>
+            <td>05:00</td>
+        </tr>
+
+        <tr id="song4" onclick="playAll(4)">
+            <td>4</td>
+            <td>Dippam Dippam</td>
+            <td>KRK</td>
+            <td>04:00</td>
+        </tr>
+
+        <tr  id="song5" onclick="playAll(5)">
+            <td>5</td>
+            <td>Lokiverse</td>
+            <td>Leo</td>
+            <td>04:00</td>
+        </tr>
+
+        <tr id="song6" onclick="playAll(6)">
+            <td>6</td>
+            <td>Vikram</td>
+            <td>Vikram</td>
+            <td>05:00</td>
+        </tr>
+          
+        <tr id="song7" onclick="playAll(7)">
+            <td>7</td>
+            <td>Badass</td>
+            <td>Leo</td>
+            <td>05:40</td>
+        </tr>
+        <tr id="song8" onclick="playAll(8)">
+            <td>8</td>
+            <td>Don'u Don'u</td>
+            <td>Maari</td>
+            <td>04:30</td>
+        </tr>
+        <tr id="song9" onclick="playAll(9)">
+            <td>9</td>
+            <td>Maarana Mass</td>
+            <td>Petta</td>
+            <td>06:00</td>
+        </tr>
+        <tr id="song10" onclick="playAll(10)">
+            <td>10</td>
+            <td>Ramaiya Vasthavaiya</td>
+            <td>Jawan</td>
+            <td>05:00</td>
+        </tr>
+     </table>
+</div>
+<script src="sample.js"></script>
+</body>
+</html>
